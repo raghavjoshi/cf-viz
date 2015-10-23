@@ -18,6 +18,14 @@ def ndf(congressman_name):
 	df['name'] = data.index
 	return df
 
+def edf(congressman_name):
+	u_cols = ['source','target','value']
+	df = pd.DataFrame(columns=u_cols,index=data.index)
+	df['source'] = data.index.get_loc(congressman_name)
+	df['target'] = [data.index.get_loc(i) for i in data.index]
+	df['value'] = [j for j in get_cossim_scores(congressman_name)]
+	return df
+
 
 
 
