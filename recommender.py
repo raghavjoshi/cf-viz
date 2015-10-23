@@ -1,5 +1,5 @@
 import pandas as pd 
-import scipy.spatial.distance import cosine
+from scipy.spatial.distance import cosine
 
 #open file
 data = pd.read_csv('data/sen_113_cosp.csv')
@@ -18,4 +18,4 @@ for i in range(0,len(new_data.columns)):
 		new_data.ix[i,j] = 1-cosine(temp_data.ix[:,i],temp_data.ix[:,j])
 		
 
-new_data.to_csv('test_output.csv')
+new_data.to_csv('data/data.csv')
