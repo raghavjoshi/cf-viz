@@ -27,6 +27,14 @@ def edf(congressman_name):
 	return df
 
 
+def csv():
+	for i in data.index:
+		temp = ndf(i)
+		temp2 = edf(i)
+		temp.to_csv('data/csv_data/' + i + '_node.csv')
+		temp2.to_csv('data/csv_data/' + i + '_edge.csv')
+
+csv()
 
 
 
