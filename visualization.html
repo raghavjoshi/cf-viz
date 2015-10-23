@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<meta charset='utf-8'>
+
+
+<style>
+
+.link {
+  stroke: #D3D3D3;
+}
+
+.node {
+  stroke: #FFF;
+}
+
+</style>
+
+
+
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+
+
+$wordToSearch = "Alan_Franken";
+
+var w = 10000,
+	h = 10000,
+	node,
+	link,
+	title;
+	
+var path = 'data/json_data/' + $wordToSearch + '_edge.csv.json';
+
+var svg = d3.select("body").append("svg")
+	.attr("width", w)
+	.attr("height", h);
+
+
+//Update the graph
+function update() {
+	// var nodes = flatten(root),
+	// links = d3.layout.tree().links(nodes);
+	d3.json(path, function(json) {
+		nodes = json.nodes;
+		links= json.links;
+
+	// Restart the force layout.
+	var force = d3.layout.force();
+	force
+		.nodes(nodes)
+		.links(links)
+		.linkDistance(function(d){return 500*(1-d.value);})
+		.on("tick", tick)
+		.charge(-30000)
+		.gravity(2)
+		.size([w, h])
+		.start();
+
+	// Update the links…
+	link = svg.selectAll(".link")
+		.data(links);
+
+	// Enter any new links.
+	link.enter().insert("line")
+		.attr("class", "link")
+		.attr("x1", function(d) { return d.target.x; })
+		.attr("y1", function(d) { return d.target.y; })
+		.attr("x2", function(d) { return d.source.x; })
+		.attr("y2", function(d) { return d.source.y; });
+	
+	link.on('mouseover',function(){
+        d3.select(this)
+          .transition()
+          .duration(400)
+          .attr('stroke-width',5);
+      });
+    link.on('mouseleave',function(){
+      d3.select(this)
+      	.transition()
+      	.duration(400)
+        .attr('stroke','black')
+        .attr('stroke-width',1);
+    });
+
+	// Exit any old links.
+	link.exit().remove();
+
+	// Update the nodes…
+	node = svg.selectAll(".node")
+		.data(nodes);
+    
+    var nodeE = node
+		.enter();
+    
+    var nodeG = nodeE.append("g")
+		.attr("class", "node")
+		.call(force.drag);
+
+	nodeG.append("circle")	
+		.attr("r", 16)
+		.attr('stroke','silver')
+		.attr('stroke-width','3')
+		.on('click',function(){
+			d3.select(this)
+			.attr('r',25)
+			.attr('fill','silver');
+		})
+		.on('dblclick', function(d){
+			$wordToSearch = d.name
+			path = '/data/json_data/' + $wordToSearch + '_edge.csv.json'
+			console.log(path)
+			updateGraph(path);
+		})
+		.on('mouseover',function(d){
+			d3.select(this)
+			.transition()
+			.duration(400)
+			.attr('r',25)
+			.attr('fill','silver')
+			tooltip.text("Similarity Score: " + Math.round(links[d.index].value * 100))
+          	tooltip.style("top", (event.pageY-50)+"px")
+          	tooltip.style("left",(event.pageX-20)+"px")
+          	tooltip.style('visibility','visible');
+		})
+		.on('mousemove',function(d){
+          d3.select(this)
+          tooltip.text("Similarity Score: " + Math.round(links[d.index].value * 100))
+          tooltip.style("top", (event.pageY-200)+"px")
+          tooltip.style("left",(event.pageX-50)+"px")
+          tooltip.style('visibility','visible');
+      })
+
+		.on('mouseleave',function(d){
+			d3.select(this)
+			.transition()
+			.duration(400)
+			.attr('r',16)
+			.attr('fill','black')
+			tooltip.style('visibility','hidden');
+		});
+
+	nodeG.append("text")
+    	.attr("stroke", 'black')
+    	.attr('stroke-width',1)
+    	.attr('x',12)
+    	.attr('y','.35em')
+    	.attr("text-anchor", 'start')
+    	.attr('font-family','16px sans-serif')
+    	.text(function(d) { return d.name.replace('_'," ") })
+    	.call(force.drag)
+    	.on('mouseover',function(){
+        	d3.select(this)
+          	.attr('stroke','silver')
+          	.attr('font-size','20px');
+      })
+     	.on('mouseleave',function(){
+        	d3.select(this)
+          	.attr('stroke','black')
+          	.attr('font-size','16px');
+      });
+
+
+    node.exit().remove();
+
+});
+};
+
+function tick() {
+	link.attr("x1", function(d) { return d.target.x; })
+		.attr("y1", function(d) { return d.target.y; })
+		.attr("x2", function(d) { return d.source.x; })
+		.attr("y2", function(d) { return d.source.y; });
+
+	node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+}
+
+update();
+
+
+
+//Update graph with new extended JSON objects
+function updateGraph(newURL) {
+	d3.json(newURL, function() {		
+		update();
+	});
+}
+
+var tooltip = d3.select('body')
+  .append('div')
+  .style('position','absolute')
+  .style('z-index','10')
+  .style('visibility','hidden')
+  .style("color", "white")
+  .style("padding", "8px")
+  .style("background-color", "rgba(0, 0, 0, 0.75)")
+  .style("border-radius", "6px")
+  .style("font", "20px sans-serif")
+  .text("tooltip");
+
+
+
+</script>
+</body>

@@ -1,0 +1,13 @@
+decorator==3.4.2
+networkx==1.9.1
+numpy==1.8.0rc1
+pandas==0.16.2
+python-dateutil==2.4.2
+pytz==2013b0
+scipy==0.13.0b1
+simplejson==3.7.3
+six==1.9.0
+
+
+
+
