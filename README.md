@@ -10,6 +10,6 @@ You have to run this simple server because of the Cross origin request error (th
 Here's what you should see:
 
 ![cfviz]
-(https://dl.dropboxusercontent.com/u/3033962/Soundscapes%20-%20Web%20Banner.png)
+(https://dl.dropbox.com/s/7ww0cd5at5j9j78/Screen%20Shot%202015-10-23%20at%205.44.25%20AM.png?dl=0)
 
 
