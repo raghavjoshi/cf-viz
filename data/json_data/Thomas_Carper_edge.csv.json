@@ -1,0 +1,918 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "name": "Harry_Reid", 
+            "id": 0
+        }, 
+        {
+            "name": "Thomas_Harkin", 
+            "id": 1
+        }, 
+        {
+            "name": "Max_Baucus", 
+            "id": 2
+        }, 
+        {
+            "name": "Mitch_McConnell", 
+            "id": 3
+        }, 
+        {
+            "name": "Mark_Pryor", 
+            "id": 4
+        }, 
+        {
+            "name": "Susan_Collins", 
+            "id": 5
+        }, 
+        {
+            "name": "Carl_Levin", 
+            "id": 6
+        }, 
+        {
+            "name": "James_Inhofe", 
+            "id": 7
+        }, 
+        {
+            "name": "Jefferson_Sessions", 
+            "id": 8
+        }, 
+        {
+            "name": "David_Vitter", 
+            "id": 9
+        }, 
+        {
+            "name": "John_Rockefeller", 
+            "id": 10
+        }, 
+        {
+            "name": "Bernard_Sanders", 
+            "id": 11
+        }, 
+        {
+            "name": "Thomas_Carper", 
+            "id": 12
+        }, 
+        {
+            "name": "Saxby_Chambliss", 
+            "id": 13
+        }, 
+        {
+            "name": "Richard_Burr", 
+            "id": 14
+        }, 
+        {
+            "name": "Robert_Casey", 
+            "id": 15
+        }, 
+        {
+            "name": "John_Boozman", 
+            "id": 16
+        }, 
+        {
+            "name": "Patty_Murray", 
+            "id": 17
+        }, 
+        {
+            "name": "Mary_Landrieu", 
+            "id": 18
+        }, 
+        {
+            "name": "Jerry_Moran", 
+            "id": 19
+        }, 
+        {
+            "name": "Claire_McCaskill", 
+            "id": 20
+        }, 
+        {
+            "name": "Mark_Udall", 
+            "id": 21
+        }, 
+        {
+            "name": "Kay_Hagan", 
+            "id": 22
+        }, 
+        {
+            "name": "John_Cornyn", 
+            "id": 23
+        }, 
+        {
+            "name": "Michael_Crapo", 
+            "id": 24
+        }, 
+        {
+            "name": "Bob_Corker", 
+            "id": 25
+        }, 
+        {
+            "name": "John_Barrasso", 
+            "id": 26
+        }, 
+        {
+            "name": "Michael_Enzi", 
+            "id": 27
+        }, 
+        {
+            "name": "Thomas_Coburn", 
+            "id": 28
+        }, 
+        {
+            "name": "Sheldon_Whitehouse", 
+            "id": 29
+        }, 
+        {
+            "name": "Jeanne_Shaheen", 
+            "id": 30
+        }, 
+        {
+            "name": "Martin_Heinrich", 
+            "id": 31
+        }, 
+        {
+            "name": "Daniel_Coats", 
+            "id": 32
+        }, 
+        {
+            "name": "Charles_Schumer", 
+            "id": 33
+        }, 
+        {
+            "name": "Richard_Durbin", 
+            "id": 34
+        }, 
+        {
+            "name": "Roy_Blunt", 
+            "id": 35
+        }, 
+        {
+            "name": "Mark_Warner", 
+            "id": 36
+        }, 
+        {
+            "name": "James_Risch", 
+            "id": 37
+        }, 
+        {
+            "name": "Tim_Johnson", 
+            "id": 38
+        }, 
+        {
+            "name": "Alan_Franken", 
+            "id": 39
+        }, 
+        {
+            "name": "Mark_Begich", 
+            "id": 40
+        }, 
+        {
+            "name": "Brian_Schatz", 
+            "id": 41
+        }, 
+        {
+            "name": "Deb_Fischer", 
+            "id": 42
+        }, 
+        {
+            "name": "Kirsten_Gillibrand", 
+            "id": 43
+        }, 
+        {
+            "name": "Tammy_Baldwin", 
+            "id": 44
+        }, 
+        {
+            "name": "John_Walsh", 
+            "id": 45
+        }, 
+        {
+            "name": "Mark_Kirk", 
+            "id": 46
+        }, 
+        {
+            "name": "Dean_Heller", 
+            "id": 47
+        }, 
+        {
+            "name": "Jeff_Flake", 
+            "id": 48
+        }, 
+        {
+            "name": "Thad_Cochran", 
+            "id": 49
+        }, 
+        {
+            "name": "Mike_Johanns", 
+            "id": 50
+        }, 
+        {
+            "name": "Robert_Portman", 
+            "id": 51
+        }, 
+        {
+            "name": "Edward_Markey", 
+            "id": 52
+        }, 
+        {
+            "name": "Cory_Booker", 
+            "id": 53
+        }, 
+        {
+            "name": "Roger_Wicker", 
+            "id": 54
+        }, 
+        {
+            "name": "Benjamin_Cardin", 
+            "id": 55
+        }, 
+        {
+            "name": "Tom_Udall", 
+            "id": 56
+        }, 
+        {
+            "name": "Mike_Lee", 
+            "id": 57
+        }, 
+        {
+            "name": "Ted_Cruz", 
+            "id": 58
+        }, 
+        {
+            "name": "Amy_Klobuchar", 
+            "id": 59
+        }, 
+        {
+            "name": "Pat_Roberts", 
+            "id": 60
+        }, 
+        {
+            "name": "Patrick_Leahy", 
+            "id": 61
+        }, 
+        {
+            "name": "Orrin_Hatch", 
+            "id": 62
+        }, 
+        {
+            "name": "Charles_Grassley", 
+            "id": 63
+        }, 
+        {
+            "name": "Ron_Wyden", 
+            "id": 64
+        }, 
+        {
+            "name": "Debbie_Stabenow", 
+            "id": 65
+        }, 
+        {
+            "name": "Dianne_Feinstein", 
+            "id": 66
+        }, 
+        {
+            "name": "John_Isakson", 
+            "id": 67
+        }, 
+        {
+            "name": "Barbara_Boxer", 
+            "id": 68
+        }, 
+        {
+            "name": "Chris_Coons", 
+            "id": 69
+        }, 
+        {
+            "name": "John_McCain", 
+            "id": 70
+        }, 
+        {
+            "name": "Lisa_Murkowski", 
+            "id": 71
+        }, 
+        {
+            "name": "John_Hoeven", 
+            "id": 72
+        }, 
+        {
+            "name": "Jon_Tester", 
+            "id": 73
+        }, 
+        {
+            "name": "Maria_Cantwell", 
+            "id": 74
+        }, 
+        {
+            "name": "Heidi_Heitkamp", 
+            "id": 75
+        }, 
+        {
+            "name": "Marco_Rubio", 
+            "id": 76
+        }, 
+        {
+            "name": "Barbara_Mikulski", 
+            "id": 77
+        }, 
+        {
+            "name": "Angus_King", 
+            "id": 78
+        }, 
+        {
+            "name": "Mazie_Hirono", 
+            "id": 79
+        }, 
+        {
+            "name": "John_Reed", 
+            "id": 80
+        }, 
+        {
+            "name": "Tim_Scott", 
+            "id": 81
+        }, 
+        {
+            "name": "Bill_Nelson", 
+            "id": 82
+        }, 
+        {
+            "name": "Richard_Blumenthal", 
+            "id": 83
+        }, 
+        {
+            "name": "Joe_Donnelly", 
+            "id": 84
+        }, 
+        {
+            "name": "Elizabeth_Warren", 
+            "id": 85
+        }, 
+        {
+            "name": "Timothy_Kaine", 
+            "id": 86
+        }, 
+        {
+            "name": "John_Thune", 
+            "id": 87
+        }, 
+        {
+            "name": "Sherrod_Brown", 
+            "id": 88
+        }, 
+        {
+            "name": "Michael_Bennet", 
+            "id": 89
+        }, 
+        {
+            "name": "Richard_Shelby", 
+            "id": 90
+        }, 
+        {
+            "name": "Lamar_Alexander", 
+            "id": 91
+        }, 
+        {
+            "name": "Lindsey_Graham", 
+            "id": 92
+        }, 
+        {
+            "name": "Jeff_Merkley", 
+            "id": 93
+        }, 
+        {
+            "name": "Christopher_Murphy", 
+            "id": 94
+        }, 
+        {
+            "name": "Kelly_Ayotte", 
+            "id": 95
+        }, 
+        {
+            "name": "Joe_Manchin", 
+            "id": 96
+        }, 
+        {
+            "name": "Patrick_Toomey", 
+            "id": 97
+        }, 
+        {
+            "name": "Robert_Men\u00cc.ndez", 
+            "id": 98
+        }, 
+        {
+            "name": "Ron_Johnson", 
+            "id": 99
+        }, 
+        {
+            "name": "Rand_Paul", 
+            "id": 100
+        }
+    ], 
+    "links": [
+        {
+            "source": 0, 
+            "target": 12, 
+            "value": 0.269496033847
+        }, 
+        {
+            "source": 1, 
+            "target": 12, 
+            "value": 0.167085414114
+        }, 
+        {
+            "source": 2, 
+            "target": 12, 
+            "value": 0.0785316149441
+        }, 
+        {
+            "source": 3, 
+            "target": 12, 
+            "value": 0.24589523969500002
+        }, 
+        {
+            "source": 4, 
+            "target": 12, 
+            "value": 0.274195627103
+        }, 
+        {
+            "source": 5, 
+            "target": 12, 
+            "value": 0.191698692561
+        }, 
+        {
+            "source": 6, 
+            "target": 12, 
+            "value": 0.050183817298800004
+        }, 
+        {
+            "source": 7, 
+            "target": 12, 
+            "value": 0.130775146663
+        }, 
+        {
+            "source": 8, 
+            "target": 12, 
+            "value": 0.227191081263
+        }, 
+        {
+            "source": 9, 
+            "target": 12, 
+            "value": 0.12940685742
+        }, 
+        {
+            "source": 10, 
+            "target": 12, 
+            "value": 0.295730680823
+        }, 
+        {
+            "source": 11, 
+            "target": 12, 
+            "value": 0.12368397662399999
+        }, 
+        {
+            "source": 12, 
+            "target": 12, 
+            "value": 1.0
+        }, 
+        {
+            "source": 12, 
+            "target": 13, 
+            "value": 0.146960160245
+        }, 
+        {
+            "source": 12, 
+            "target": 14, 
+            "value": 0.259542939849
+        }, 
+        {
+            "source": 12, 
+            "target": 15, 
+            "value": 0.153409925891
+        }, 
+        {
+            "source": 12, 
+            "target": 16, 
+            "value": 0.167214890896
+        }, 
+        {
+            "source": 12, 
+            "target": 17, 
+            "value": 0.234244608072
+        }, 
+        {
+            "source": 12, 
+            "target": 18, 
+            "value": 0.131075063104
+        }, 
+        {
+            "source": 12, 
+            "target": 19, 
+            "value": 0.143329702734
+        }, 
+        {
+            "source": 12, 
+            "target": 20, 
+            "value": 0.19063972686099998
+        }, 
+        {
+            "source": 12, 
+            "target": 21, 
+            "value": 0.278127322674
+        }, 
+        {
+            "source": 12, 
+            "target": 22, 
+            "value": 0.23944779120700002
+        }, 
+        {
+            "source": 12, 
+            "target": 23, 
+            "value": 0.17670695065499997
+        }, 
+        {
+            "source": 12, 
+            "target": 24, 
+            "value": 0.284209018568
+        }, 
+        {
+            "source": 12, 
+            "target": 25, 
+            "value": 0.212514746898
+        }, 
+        {
+            "source": 12, 
+            "target": 26, 
+            "value": 0.233005498942
+        }, 
+        {
+            "source": 12, 
+            "target": 27, 
+            "value": 0.19288340018
+        }, 
+        {
+            "source": 12, 
+            "target": 28, 
+            "value": 0.340357299954
+        }, 
+        {
+            "source": 12, 
+            "target": 29, 
+            "value": 0.423085013045
+        }, 
+        {
+            "source": 12, 
+            "target": 30, 
+            "value": 0.22504128967599998
+        }, 
+        {
+            "source": 12, 
+            "target": 31, 
+            "value": 0.17809215527
+        }, 
+        {
+            "source": 12, 
+            "target": 32, 
+            "value": 0.19988471489999998
+        }, 
+        {
+            "source": 12, 
+            "target": 33, 
+            "value": 0.183712736085
+        }, 
+        {
+            "source": 12, 
+            "target": 34, 
+            "value": 0.262480371067
+        }, 
+        {
+            "source": 12, 
+            "target": 35, 
+            "value": 0.125347132285
+        }, 
+        {
+            "source": 12, 
+            "target": 36, 
+            "value": 0.397243028729
+        }, 
+        {
+            "source": 12, 
+            "target": 37, 
+            "value": 0.213366382971
+        }, 
+        {
+            "source": 12, 
+            "target": 38, 
+            "value": 0.345868558523
+        }, 
+        {
+            "source": 12, 
+            "target": 39, 
+            "value": 0.193885513406
+        }, 
+        {
+            "source": 12, 
+            "target": 40, 
+            "value": 0.0773960288211
+        }, 
+        {
+            "source": 12, 
+            "target": 41, 
+            "value": 0.178794880988
+        }, 
+        {
+            "source": 12, 
+            "target": 42, 
+            "value": 0.179929018244
+        }, 
+        {
+            "source": 12, 
+            "target": 43, 
+            "value": 0.162473074738
+        }, 
+        {
+            "source": 12, 
+            "target": 44, 
+            "value": 0.172975535914
+        }, 
+        {
+            "source": 12, 
+            "target": 45, 
+            "value": 0.207170939855
+        }, 
+        {
+            "source": 12, 
+            "target": 46, 
+            "value": 0.258277664459
+        }, 
+        {
+            "source": 12, 
+            "target": 47, 
+            "value": 0.0826780152573
+        }, 
+        {
+            "source": 12, 
+            "target": 48, 
+            "value": 0.138709602238
+        }, 
+        {
+            "source": 12, 
+            "target": 49, 
+            "value": 0.212935446065
+        }, 
+        {
+            "source": 12, 
+            "target": 50, 
+            "value": 0.131600504373
+        }, 
+        {
+            "source": 12, 
+            "target": 51, 
+            "value": 0.148655352292
+        }, 
+        {
+            "source": 12, 
+            "target": 52, 
+            "value": 0.24855436611900003
+        }, 
+        {
+            "source": 12, 
+            "target": 53, 
+            "value": 0.268016170429
+        }, 
+        {
+            "source": 12, 
+            "target": 54, 
+            "value": 0.16907934034000002
+        }, 
+        {
+            "source": 12, 
+            "target": 55, 
+            "value": 0.163992450268
+        }, 
+        {
+            "source": 12, 
+            "target": 56, 
+            "value": 0.214735905946
+        }, 
+        {
+            "source": 12, 
+            "target": 57, 
+            "value": 0.0802260687538
+        }, 
+        {
+            "source": 12, 
+            "target": 58, 
+            "value": 0.10414558005
+        }, 
+        {
+            "source": 12, 
+            "target": 59, 
+            "value": 0.157181715634
+        }, 
+        {
+            "source": 12, 
+            "target": 60, 
+            "value": 0.27083706598900004
+        }, 
+        {
+            "source": 12, 
+            "target": 61, 
+            "value": 0.160732653235
+        }, 
+        {
+            "source": 12, 
+            "target": 62, 
+            "value": 0.170939501104
+        }, 
+        {
+            "source": 12, 
+            "target": 63, 
+            "value": 0.36629018863000007
+        }, 
+        {
+            "source": 12, 
+            "target": 64, 
+            "value": 0.143104846304
+        }, 
+        {
+            "source": 12, 
+            "target": 65, 
+            "value": 0.306222921514
+        }, 
+        {
+            "source": 12, 
+            "target": 66, 
+            "value": 0.369051982787
+        }, 
+        {
+            "source": 12, 
+            "target": 67, 
+            "value": 0.128193506591
+        }, 
+        {
+            "source": 12, 
+            "target": 68, 
+            "value": 0.11957973251800001
+        }, 
+        {
+            "source": 12, 
+            "target": 69, 
+            "value": 0.310192944045
+        }, 
+        {
+            "source": 12, 
+            "target": 70, 
+            "value": 0.197213057613
+        }, 
+        {
+            "source": 12, 
+            "target": 71, 
+            "value": 0.161424514086
+        }, 
+        {
+            "source": 12, 
+            "target": 72, 
+            "value": 0.18325897855700002
+        }, 
+        {
+            "source": 12, 
+            "target": 73, 
+            "value": 0.049612135279800004
+        }, 
+        {
+            "source": 12, 
+            "target": 74, 
+            "value": 0.172601136197
+        }, 
+        {
+            "source": 12, 
+            "target": 75, 
+            "value": 0.040703304194699995
+        }, 
+        {
+            "source": 12, 
+            "target": 76, 
+            "value": 0.151379245881
+        }, 
+        {
+            "source": 12, 
+            "target": 77, 
+            "value": 0.11414641449200001
+        }, 
+        {
+            "source": 12, 
+            "target": 78, 
+            "value": 0.20493315063
+        }, 
+        {
+            "source": 12, 
+            "target": 79, 
+            "value": 0.225987430713
+        }, 
+        {
+            "source": 12, 
+            "target": 80, 
+            "value": 0.243265619712
+        }, 
+        {
+            "source": 12, 
+            "target": 81, 
+            "value": 0.157641462599
+        }, 
+        {
+            "source": 12, 
+            "target": 82, 
+            "value": 0.350629721863
+        }, 
+        {
+            "source": 12, 
+            "target": 83, 
+            "value": 0.141082559698
+        }, 
+        {
+            "source": 12, 
+            "target": 84, 
+            "value": 0.26320739760699996
+        }, 
+        {
+            "source": 12, 
+            "target": 85, 
+            "value": 0.097255531304
+        }, 
+        {
+            "source": 12, 
+            "target": 86, 
+            "value": 0.219385924719
+        }, 
+        {
+            "source": 12, 
+            "target": 87, 
+            "value": 0.0935345201531
+        }, 
+        {
+            "source": 12, 
+            "target": 88, 
+            "value": 0.245426159803
+        }, 
+        {
+            "source": 12, 
+            "target": 89, 
+            "value": 0.197804505011
+        }, 
+        {
+            "source": 12, 
+            "target": 90, 
+            "value": 0.0338406415639
+        }, 
+        {
+            "source": 12, 
+            "target": 91, 
+            "value": 0.259734557104
+        }, 
+        {
+            "source": 12, 
+            "target": 92, 
+            "value": 0.236856151976
+        }, 
+        {
+            "source": 12, 
+            "target": 93, 
+            "value": 0.143849423433
+        }, 
+        {
+            "source": 12, 
+            "target": 94, 
+            "value": 0.23310345434799998
+        }, 
+        {
+            "source": 12, 
+            "target": 95, 
+            "value": 0.155875957135
+        }, 
+        {
+            "source": 12, 
+            "target": 96, 
+            "value": 0.220965962369
+        }, 
+        {
+            "source": 12, 
+            "target": 97, 
+            "value": 0.0977897378117
+        }, 
+        {
+            "source": 12, 
+            "target": 98, 
+            "value": 0.231572676091
+        }, 
+        {
+            "source": 12, 
+            "target": 99, 
+            "value": 0.161338674728
+        }, 
+        {
+            "source": 12, 
+            "target": 100, 
+            "value": 0.09881836617930001
+        }
+    ], 
+    "multigraph": false
+}
